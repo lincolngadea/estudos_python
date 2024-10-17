@@ -1,15 +1,21 @@
 import numpy as np
 import pandas as pd
 
-# CRIANDO UM DATA FRAME A PARTIR DE UM DICIONÁRIO
+# CRIANDO UM DATA FRAME A PARTIR DE UMA LISTA
 
-dict_vendas = {
-    'Cliente': ['Lincoln', 'Rafael', 'Pedro', 'Chris', 'Jackson', 'Graça', 'Kelly', 'Itamar', 'Neto', 'Andrezza'],
-    'Produto': ['Melancia', 'Morango', 'Banana', 'Maracujá', 'Coco', 'Laranja', 'Manga', 'Uva', 'Pera', 'Amora'],
-    'Quantidade': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    'Valor': [12.0, 34.3, 25.0, 10.0, 23.0, 43.2, 44.0, 32.0, 21.0, 21.0]
-}
+list_vendas = [
+    ['Lincoln', 'Melancia', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Rafael', 'Morango', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Pedro', 'Banana', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Chris', 'Maracujá', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Jackson', 'Coco', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Graça', 'Laranja', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Kelly', 'Manga', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Itamar', 'Uva', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Neto', 'Pera', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))],
+    ['Andrezza', 'Amora', np.random.randint(1, 10), np.around(np.random.uniform(10.0, 100.0))]
+]
 
 # print(controle_vendas)
-fm1 = pd.DataFrame(dict_vendas)
-print(fm1)
+df = pd.DataFrame(list_vendas, columns=['Cliente', 'Produto', 'Quant', 'Vlr Unit'])
+print(df)
