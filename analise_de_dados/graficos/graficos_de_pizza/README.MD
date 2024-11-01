@@ -1,0 +1,1 @@
+![](/Users/lincolngadea/Desktop/Captura de Tela 2024-11-01 às 08.28.37.png)
