@@ -5,7 +5,10 @@
       <map>
         <entry key="lincoln.gadea@zup.com.br">
           <value>
-            <ProjectStateData />
+            <ProjectStateData>
+              <option name="conversationId" value="01JBQKEFZVH05FHQE155QECD5S" />
+              <option name="projectId" value="01JBQKEG06NCW6K8MCTRX19ASY" />
+            </ProjectStateData>
           </value>
         </entry>
       </map>
