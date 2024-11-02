@@ -123,9 +123,3 @@ ehthumbs.db
 **/.nox/
 **/.pytest_cache/
 **/.hypothesis/
-
-# Mac
-.DS_Store
-*.DS_Store
-**/.DS_Store
-**/*.DS_Store
