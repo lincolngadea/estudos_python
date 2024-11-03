@@ -9,7 +9,7 @@ dados3 = np.random.normal(0, 3, 100)
 dados = [dados1, dados2, dados3]
 
 # Gráfico de boxplot
-plt.boxplot(dados)
+plt.boxplot(dados, patch_artist=True)
 
 # Rótulos e títulos
 plt.xticks([1, 2, 3], ['Dados 1', 'Dados 2', 'Dados 3'])
