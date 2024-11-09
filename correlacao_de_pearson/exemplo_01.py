@@ -17,3 +17,20 @@ df = pd.DataFrame(dados)
 coef_corr, p_value = stats.pearsonr(df['horas_estudo'], df['notas'])
 print(f'Coeficiente de correlação: {coef_corr}')
 print(f'Valor P: {p_value}')
+
+# Valida a correlação via heatmap
+
+# Cria a correlação
+correlacao = df.corr()
+
+# Cria o heatmap usando o seaborn
+plt.figure(figsize=(5,3))
+sns.heatmap(correlacao, annot=True)
+
+# Cria título do gráfico
+plt.title('Matriz de correlação')
+
+#Exibe o gráfico
+plt.show()
+
+# Em resumo, existe uma correlação entre a quantidade de horas de estudo e a nota
