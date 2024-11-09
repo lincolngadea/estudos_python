@@ -6,8 +6,15 @@
         <entry key="lincoln.gadea@zup.com.br">
           <value>
             <ProjectStateData>
-              <option name="conversationId" value="01JBSKAAQ0KTNXTJYVM4GNYAF0" />
+              <option name="conversationId" value="01JC8TTH4H27NQB3Q3B8JQD9A8" />
               <option name="projectId" value="01JBQKEG06NCW6K8MCTRX19ASY" />
+            </ProjectStateData>
+          </value>
+        </entry>
+        <entry key="unauthenticated">
+          <value>
+            <ProjectStateData>
+              <option name="projectId" value="01JBWXSWQT0WK7KR9XZSTN00NT" />
             </ProjectStateData>
           </value>
         </entry>
