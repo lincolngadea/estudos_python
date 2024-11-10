@@ -29,4 +29,4 @@ print(f'Estatística t:{t_statistic}')
 print(f'Valor-p:{p_value}')
 
 # Plotagem
-# plt.show()
+plt.show()
